@@ -1,5 +1,12 @@
 dtkdeclarative (5.6.12) jammy; urgency=medium
 
+  [ runner@fv-az487-428.2sz3r15znfdunikkjm1quj4vwe.jx.internal.cloudapp.net ]
+  * UNRELEASED
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 07 Jun 2023 08:24:08 +0000
+
+dtkdeclarative (5.6.12) jammy; urgency=medium
+
   * chore: add .tx/deepin.conf
   * feat: qmake to cmake
   * fix: qt5qucikcontrols2 private
