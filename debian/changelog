@@ -1,3 +1,33 @@
+dtkdeclarative (5.6.14) unstable; urgency=medium
+
+  * chore: add .tx/deepin.conf
+  * feat: qmake to cmake
+  * fix: qt5qucikcontrols2 private
+    Thanks to ShootingStarDragons
+  * fix: chameleon private dir
+    Thanks to ShootingStarDragons
+  * fix: ci fix
+    Thanks to ShootingStarDragons
+  * feat: add cmake target link support
+  * chore: fix lintian warnings
+  * chore: hide private link libraries
+  * docs: QDoc -> Doxygen
+  * chore: Sync by(Influence: none)
+  * docs: add docs and update docs
+  * docs: update docs
+  * docs: update docs and remove useless docs
+  * Update call-deploy-dev-doc.yml
+    Thanks to LinXuan
+  * docs: update docs
+  * docs: update qml docs and add todo tags
+  * feat: add dummy.sh
+  * Delete backup-to-gitlab.yml
+    Thanks to asterwyx
+  * Delete .github/workflows directory
+    Thanks to asterwyx
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 09 Jun 2023 13:43:33 +0800
+
 dtkdeclarative (5.6.3) unstable; urgency=medium
 
   * Release 5.6.3
