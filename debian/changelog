@@ -3,6 +3,13 @@ dtkdeclarative (6.0.2) unstable; urgency=medium
   [ Astrea ]
   * UNRELEASED
 
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 06 Jul 2023 16:31:51 +0800
+
+dtkdeclarative (6.0.2) unstable; urgency=medium
+
+  [ Astrea ]
+  * UNRELEASED
+
  -- Deepin Packages Builder <packages@deepin.org>  Thu, 06 Jul 2023 16:26:50 +0800
 
 dtkdeclarative (6.0.2) unstable; urgency=medium
