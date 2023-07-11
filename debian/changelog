@@ -1,3 +1,44 @@
+dtkdeclarative (5.6.14) unstable; urgency=medium
+
+  * fix: typo
+    Thanks to student-ice
+  * feat: Support switching qt5 and qt6 for cmake(Issue: #87)
+  * fix: Unsupported type for property assignment(Issue: #87)
+  * fix: Crashed while debugging in Qt
+  * feat: Support compiling between Qt5 and Qt6(Issue: #87)
+  * feat: Support QQuickPalette in Qt6(Issue: #87)
+  * feat: Forward ContentMenuEvent in Qt6(Issue: #87)
+  * fix: Qt.color is invalid in qt5(Issue: #87)
+  * fix: Imcompatible of the import syntax of Qt6 with Qt5(Issue: #87)
+  * fix: Templates's incompilable
+  * fix: Final property
+  * fix: GraphicalEffect has been droped
+  * fix: Incompilable syntax
+  * fix: Report Network error in qt6(Issue: #87)
+  * fix: Missing Macro for DColor in qt6(Issue: #87)
+  * Fix: Incompilable syntax for qt6(Issue: #87)
+  * Fix: Adapt to qt6 for dtk-exhibition(Issue: #87)
+  * Chore: Rename EnableDtk to EnableQt(Issue: #87)
+  * Fix: Adapt to qt6 for examples(Issue: #87)
+  * fix: Syntax error in qt6(Issue: #87)
+  * fix: ChameleonStyle invalid in qt6(Issue: #87)
+  * feat: Migrate qt5 to qt6 for QSGTexture(Issue: #87)
+  * feat: Forward shaders in qt6(Issue: #87)
+  * feat: Separating qt5 and qt6 for `src`(Issue: #87)
+  * feat: Add macro registing to Qt Meta system(Issue: #87)
+  * refactor: Adjust project structure for qt6(Issue: #87)
+  * feat: Adapt the syntax of `qml import` in qt6(Issue: #87)
+  * fix: TitleBar can't drag in qt6(Issue: #87)
+  * chore: ignore doxygen-theme folder
+    Thanks to LyYeeeYuwu(Issue: #99)
+  * refactor: Remove PixelMetric.js
+  * fix: Remove AboutAction's assignment
+  * chore: Sync by https://github.com/linuxdeepin/.github/commit/559e91167d4919644f37bbcf123eb0651c1528ea(Influence: none)
+  * fix: Missing dtkdeclarative_config.h in dev package
+  * chore: delete some checks
+
+ -- Deepin Packages Builder <packages@deepin.org>  Tue, 11 Jul 2023 15:45:18 +0800
+
 dtkdeclarative (5.6.12) unstable; urgency=medium
 
   * fix: a missing library link
