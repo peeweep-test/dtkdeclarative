@@ -1,0 +1,52 @@
+name: Auto Release
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0.0)'
+        type: string
+        required: false
+      name:
+        description: 'The name of the person to release the version'
+        type: string
+        required: false
+      email:
+        description: 'The email of the person to release the version'
+        type: string
+        required: false
+      timezone:
+        description: 'The timezone in the debian changelog file'
+        required: false
+        type: string
+        default: 'Asia/Shanghai'
+  workflow_call:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0.0)'
+        type: string
+        required: true
+      name:
+        description: 'The name of the person to release the version'
+        type: string
+        required: false
+      email:
+        description: 'The email of the person to release the version'
+        type: string
+        required: false
+      timezone:
+        description: 'The timezone in the debian changelog file'
+        required: false
+        type: string
+        default: 'Asia/Shanghai'
+
+jobs:
+  auto_release:
+    uses: peeweep-test/dde/.github/workflows/auto-release.yml@test/app-secrets
+    secrets:
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+    with:
+      version: ${{ inputs.version }}
+      name: ${{ inputs.name }}
+      email: ${{ inputs.email }}
+      timezone: ${{ inputs.timezone }}
